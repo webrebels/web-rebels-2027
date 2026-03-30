@@ -1,10 +1,10 @@
 {
-  "name": "web-rebels-2025",
+  "name": "web-rebels-2027",
   "license": "MIT",
   "scripts": {
     "start": "http-server --port=8080"
   },
   "dependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "14.1.1"
   }
 }
