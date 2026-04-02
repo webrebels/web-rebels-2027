@@ -1169,12 +1169,12 @@ svg {
   border-radius: 0
 }
 
-.mc-field-group {
+.form-group {
   width: 100%;
   margin: 0 auto
 }
 
-.mc-field-group label {
+.form-group label {
   font-family: "Bergen Mono",monospace;
   margin: 0;
   padding: 2px 5px;
@@ -1183,7 +1183,7 @@ svg {
   color: #000
 }
 
-.mc-field-group .email {
+.form-group .email {
   width: 100%;
   margin: 0;
   padding: 1rem;
@@ -1191,13 +1191,13 @@ svg {
   font-family: "Bergen Mono",monospace
 }
 
-.mc-field-group .email:focus,.mc-field-group .email:hover {
+.form-group .email:focus,.form-group .email:hover {
   -webkit-box-shadow: 0 0 10px #2be1a4;
   box-shadow: 0 0 10px #2be1a4;
   outline: none
 }
 
-#mc-embedded-subscribe {
+.subscribe-btn {
   font-family: "Bergen Mono",monospace;
   width: 100%;
   margin: 1rem auto;
@@ -1218,11 +1218,11 @@ svg {
   color: #000
 }
 
-.light-theme .mc-field-group .email {
+.light-theme .form-group .email {
   border: 2px solid #000
 }
 
-.light-theme .mc-field-group label {
+.light-theme .form-group label {
   background: #000;
   color: #fff
 }

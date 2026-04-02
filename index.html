@@ -201,25 +201,18 @@
       <div class="newsletter" id="newsletter">
         <h2 class="section-heading">Sign up to our newsletter</h2>
         <p>We will send out emails about ticket drops, confirmed speakers, and the occasional general update.</p>
-        <!-- Begin Mailchimp Signup Form -->
-        <div id="mc_embed_signup">
-          <form name="maillist-subscribe-form" method="POST" netlify-honeypot="hbf" data-netlify-recaptcha="true" data-netlify="true">
-            <p class="mc-field-group">
-              <label> Email: <input class="required email" type="email" name="email" placeholder="hi@example.pizza" /> </label>
-            </p>
-            <div id="mce-responses" class="clear">
-              <div class="response" id="mce-error-response" style="display: none"></div>
-              <div class="response" id="mce-success-response" style="display: none"></div>
-            </div>
-            <p style="position: absolute; left: -5000px" aria-hidden="true">
-              <label> Don't fill this out if you're human: <input name="hbf" type="text" tabindex="-1" /> </label>
-            </p>
-            <div data-netlify-recaptcha="true"></div>
-            <p>
-              <button id="mc-embedded-subscribe" class="button" type="submit">Subscribe</button>
-            </p>
-          </form>
-        </div>
+        <form name="newsletter" method="POST" netlify-honeypot="hbf" data-netlify-recaptcha="true" data-netlify="true">
+          <p class="form-group">
+            <label> Email: <input class="email" type="email" name="email" placeholder="hi@example.pizza" required /> </label>
+          </p>
+          <p style="position: absolute; left: -5000px" aria-hidden="true">
+            <label> Don't fill this out if you're human: <input name="hbf" type="text" tabindex="-1" /> </label>
+          </p>
+          <div data-netlify-recaptcha="true"></div>
+          <p>
+            <button class="button subscribe-btn" type="submit">Subscribe</button>
+          </p>
+        </form>
         <!-- div class="close" id="close-newsletter">&times;</div>-->
       </div>
 
