@@ -38,3 +38,23 @@ function changeTheme() {
 document.getElementById("moon").addEventListener("click", changeTheme);
 
 displayTheme();
+
+// newsletter signup status (double opt-in flow, see netlify/functions)
+var signupStatus = new URLSearchParams(window.location.search).get("signup");
+var signupMessages = {
+  pending: "Check your inbox! We just sent you an email. Click the link and you're on the list.",
+  confirmed: "That's it, you're on the list. See you in your inbox!",
+  invalid: "That link didn't work (they expire after 48 hours). Sign up below and we'll send you a fresh one.",
+  error: "Something broke on our end. Give it another try in a few minutes.",
+};
+
+if (signupMessages[signupStatus]) {
+  var newsletter = document.getElementById("newsletter");
+  var status = document.createElement("p");
+  status.className = "signup-status";
+  status.textContent = signupMessages[signupStatus];
+  newsletter.insertBefore(status, newsletter.querySelector("form"));
+  if (signupStatus === "pending" || signupStatus === "confirmed") {
+    newsletter.querySelector("form").style.display = "none";
+  }
+}
