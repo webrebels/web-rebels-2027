@@ -50,10 +50,11 @@ var signupMessages = {
 
 if (signupMessages[signupStatus]) {
   var newsletter = document.getElementById("newsletter");
-  var status = document.createElement("p");
-  status.className = "signup-status";
-  status.textContent = signupMessages[signupStatus];
-  newsletter.insertBefore(status, newsletter.querySelector("form"));
+  // named statusEl: a global named "status" collides with window.status, which stringifies the value
+  var statusEl = document.createElement("p");
+  statusEl.className = "signup-status";
+  statusEl.textContent = signupMessages[signupStatus];
+  newsletter.insertBefore(statusEl, newsletter.querySelector("form"));
   if (signupStatus === "pending" || signupStatus === "confirmed") {
     newsletter.querySelector("form").style.display = "none";
   }
