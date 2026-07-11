@@ -1,1 +1,4 @@
 node_modules
+
+# subscriber exports contain personal data — never commit
+audience_export_*/

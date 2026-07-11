@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/confirm"
+  to = "/.netlify/functions/confirm"
+  status = 200

@@ -1197,6 +1197,14 @@ svg {
   outline: none
 }
 
+.signup-status {
+  font-family: "Bergen Mono",monospace;
+  background: #2be1a4;
+  color: #000;
+  padding: 1rem;
+  margin: 1rem 0
+}
+
 .subscribe-btn {
   font-family: "Bergen Mono",monospace;
   width: 100%;
