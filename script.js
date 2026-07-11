@@ -42,10 +42,10 @@ displayTheme();
 // newsletter signup status (double opt-in flow, see netlify/functions)
 var signupStatus = new URLSearchParams(window.location.search).get("signup");
 var signupMessages = {
-  pending: "Almost there! We've sent you an email — click the link in it to confirm your subscription.",
-  confirmed: "Your subscription is confirmed. Welcome aboard!",
-  invalid: "That confirmation link is invalid or has expired. Please sign up again below.",
-  error: "Something went wrong on our end. Please try again later.",
+  pending: "Check your inbox! We just sent you an email. Click the link and you're on the list.",
+  confirmed: "That's it, you're on the list. See you in your inbox!",
+  invalid: "That link didn't work (they expire after 48 hours). Sign up below and we'll send you a fresh one.",
+  error: "Something broke on our end. Give it another try in a few minutes.",
 };
 
 if (signupMessages[signupStatus]) {
