@@ -2,32 +2,32 @@ Subject: Web Rebels is back – and this mailing list is retiring
 
 Hello, fellow rebels!
 
-Yes, this is really us. We've been quiet for a long time, and we come bearing news.
+We've been quiet for a long time. Six years, give or take. But Web Rebels is happening again, and there's some housekeeping to do first.
 
 TL;DR
 
-📮 We're retiring this old mailing list. Want to keep hearing from us? Sign up again at https://webrebels.org/#newsletter
-📅 Web Rebels returns in 2027, at Vulkan in Oslo. Exact dates coming as soon as they're confirmed
-📢 Our Call for Papers is open: https://sessionize.com/web-rebels-2027/
-🎫 Tickets drop once the speaker line-up is confirmed
+📮 This old mailing list is retiring. Want to keep hearing from us? Sign up again at https://webrebels.org/#newsletter
+📅 Web Rebels returns in 2027, at Vulkan in Oslo. Dates coming as soon as the venue confirms them
+📢 The Call for Papers is open: https://sessionize.com/web-rebels-2027/
+🎫 Tickets drop once we've confirmed the speakers
 
-This list is retiring – sign up again to stay aboard
+First things first: this list is retiring
 
-Our newsletter has moved to a new home, and we're not bringing old signups along without asking. This is one of the very last emails to this list. If you want news about dates, speakers, and ticket drops, sign up again at https://webrebels.org/#newsletter – it takes ten seconds, plus one click on the confirmation link we send you.
+We've moved the newsletter off Mailchimp, and we're not carrying anyone over without asking. So this is one of the very last emails you'll get from the old list. If you still want news about ticket drops, confirmed speakers, and the occasional general update, sign up again at https://webrebels.org/#newsletter. It takes ten seconds, plus one click on a confirmation link.
 
 Web Rebels 2027 at Vulkan
 
-The conference is back. We'll be at Vulkan in Oslo, and we're still nailing down the exact dates with the venue. As soon as they're confirmed, the new list hears it first. One more reason to sign up.
+The conference is back, this time at Vulkan in Oslo. We're still nailing down the exact dates with the venue, and the new list hears about them first.
 
 Call for Papers is open
 
-We'd love to see your abstract at https://sessionize.com/web-rebels-2027/. As always, we especially encourage people new to public speaking and members of underrepresented groups in tech to submit. And if you know someone who belongs on that stage, encourage them to send something in, or tip us at kontor@webrebels.org.
+Ever wanted to speak at Web Rebels? Now is the time: https://sessionize.com/web-rebels-2027/. As always, we especially encourage people new to public speaking and folks from underrepresented groups in tech to submit. And if you know someone who belongs on that stage, nudge them, or tip us at kontor@webrebels.org.
 
 Tickets
 
-The ticket drop happens once we've confirmed the speakers. It will be announced on the new list first. (Yes, we're repeating ourselves. Sign up.)
+Tickets go on sale once the speaker line-up is confirmed. We'll announce it on the new list first. (Noticing a theme? Sign up.)
 
 Until next time,
 with ❤️ from the Web Rebels crew
 
-PS: If you don't want to hear from us again, you don't need to do anything at all. This old list is going away, and you with it. We understand.
+PS: If you don't want to hear from us again, you don't need to do anything. This old list is going away, and you with it. We understand.
