@@ -29,4 +29,12 @@ async function mailgunPost(path, params) {
   return res.json();
 }
 
-module.exports = { sign, verify, mailgunPost };
+function checkEnv() {
+  const missing = ["MAILGUN_API_KEY", "MAILGUN_DOMAIN", "MAILGUN_LIST", "CONFIRM_SECRET"].filter((k) => !process.env[k]);
+  if (missing.length) {
+    console.error("Missing environment variables:", missing.join(", "));
+  }
+  console.log(`Mailgun config: url=${MAILGUN_URL} domain=${process.env.MAILGUN_DOMAIN} list=${process.env.MAILGUN_LIST}`);
+}
+
+module.exports = { sign, verify, mailgunPost, checkEnv };
