@@ -25,7 +25,6 @@ exports.handler = async (event) => {
   const confirmUrl = `${process.env.URL}/api/confirm?${query}`;
 
   try {
-  try {
     const result = await mailgunPost(`/${process.env.MAILGUN_DOMAIN}/messages`, {
       from: "Web Rebels <anders@webrebels.org>",
       to: email,
