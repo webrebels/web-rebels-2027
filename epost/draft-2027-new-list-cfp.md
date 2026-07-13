@@ -7,7 +7,7 @@ We've been quiet for a long time. Six years, give or take. But Web Rebels is hap
 TL;DR
 
 📮 This old mailing list is retiring. Want to keep hearing from us? Sign up again at https://webrebels.org/#newsletter
-📅 Web Rebels returns in 2027, at Vulkan in Oslo. Dates coming as soon as the venue confirms them
+📅 Web Rebels returns Tuesday May 25th & Wednesday May 26th 2027, at Vulkan in Oslo
 📢 The Call for Papers is open: https://sessionize.com/web-rebels-2027/
 🎫 Tickets drop once we've confirmed the speakers
 
@@ -17,7 +17,7 @@ We've moved the newsletter off Mailchimp, and we're not carrying anyone over wit
 
 Web Rebels 2027 at Vulkan
 
-The conference is back, this time at Vulkan in Oslo. We're still nailing down the exact dates with the venue, and the new list hears about them first.
+The conference is back: Tuesday May 25th & Wednesday May 26th 2027, at Vulkan in Oslo. Block out both days in your calendar.
 
 Call for Papers is open
 
