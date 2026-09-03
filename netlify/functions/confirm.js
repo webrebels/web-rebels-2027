@@ -1,6 +1,6 @@
 // Target of the signed link in the confirmation email. Verifies the token
 // and adds the address to the Mailgun mailing list.
-const { verify, mailgunPost, checkEnv } = require("./lib/shared");
+const { verify, mailgunPost, notifySlack, checkEnv } = require("./lib/shared");
 
 const MAX_AGE_MS = 48 * 60 * 60 * 1000;
 
@@ -29,5 +29,6 @@ exports.handler = async (event) => {
   }
 
   console.log(`Added ${email} to ${process.env.MAILGUN_LIST}`);
+  await notifySlack(`✅ New newsletter subscriber: ${email}`);
   return redirect("confirmed");
 };

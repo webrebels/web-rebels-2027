@@ -29,12 +29,33 @@ async function mailgunPost(path, params) {
   return res.json();
 }
 
+// Posts to the Slack channel behind SLACK_WEBHOOK_MAILGUN. Best effort: a Slack
+// outage must never fail the signup, so errors are only logged.
+async function notifySlack(text) {
+  if (!process.env.SLACK_WEBHOOK_MAILGUN) return;
+  try {
+    const res = await fetch(process.env.SLACK_WEBHOOK_MAILGUN, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text }),
+    });
+    if (!res.ok) {
+      throw new Error(`${res.status} ${await res.text()}`);
+    }
+  } catch (err) {
+    console.error("Slack notification failed:", err.message);
+  }
+}
+
 function checkEnv() {
   const missing = ["MAILGUN_API_KEY", "MAILGUN_DOMAIN", "MAILGUN_LIST", "CONFIRM_SECRET"].filter((k) => !process.env[k]);
   if (missing.length) {
     console.error("Missing environment variables:", missing.join(", "));
   }
+  if (!process.env.SLACK_WEBHOOK_MAILGUN) {
+    console.warn("SLACK_WEBHOOK_MAILGUN not set, Slack notifications disabled");
+  }
   console.log(`Mailgun config: url=${MAILGUN_URL} domain=${process.env.MAILGUN_DOMAIN} list=${process.env.MAILGUN_LIST}`);
 }
 
-module.exports = { sign, verify, mailgunPost, checkEnv };
+module.exports = { sign, verify, mailgunPost, notifySlack, checkEnv };
