@@ -1929,11 +1929,17 @@ svg {
 .email-view {
   max-width: 36rem;
   margin: 0 auto 3rem;
-  text-align: left
+  text-align: left;
+  scroll-margin-top: 5rem
+}
+
+.email-view .email-back {
+  margin-bottom: 0
 }
 
 .email-view h2 {
-  text-align: left
+  text-align: left;
+  margin-top: 1rem
 }
 
 .email-view .email-meta {
