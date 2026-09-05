@@ -1887,3 +1887,74 @@ svg {
 .light-theme .schedule .event.pause .event-title {
   color: #f47c31
 }
+
+/* newsletter archive */
+.email-list {
+  list-style: none;
+  padding: 0;
+  max-width: 36rem;
+  margin: 0 auto 3rem;
+  text-align: left
+}
+
+.email-list li {
+  border-bottom: 1px solid rgba(255,255,255,.2)
+}
+
+.email-list a {
+  display: flex;
+  gap: 1.5rem;
+  padding: .75rem 0;
+  text-decoration: none;
+  color: inherit
+}
+
+.email-list a:hover span {
+  color: #fd009d
+}
+
+.email-list time {
+  font-family: "Bergen Mono",monospace;
+  font-size: .85rem;
+  white-space: nowrap;
+  opacity: .75;
+  min-width: 7.5rem
+}
+
+.email-list-status {
+  padding: .75rem 0;
+  opacity: .75
+}
+
+.email-view {
+  max-width: 36rem;
+  margin: 0 auto 3rem;
+  text-align: left
+}
+
+.email-view h2 {
+  text-align: left
+}
+
+.email-view .email-meta {
+  font-family: "Bergen Mono",monospace;
+  font-size: .85rem;
+  opacity: .75
+}
+
+.email-view .email-body p {
+  line-height: 1.6
+}
+
+.email-view .email-body a {
+  word-break: break-all
+}
+
+.light-theme .email-list li {
+  border-color: rgba(0,0,0,.15)
+}
+
+.newsletter .archive-hint {
+  font-size: .9rem;
+  opacity: .85
+}
