@@ -231,14 +231,14 @@
     "file": "2020-02-09-web-rebels-2020-early-bird-and-cfp.md"
   },
   {
-    "title": "Web Rebels is back – and this mailing list is retiring",
-    "status": "draft",
-    "sentAt": null,
+    "title": "✨ Web Rebels is back! ... and this mailing list is retiring",
+    "status": "sent",
+    "sentAt": "2026-09-03T21:30",
     "type": "regular",
     "audience": null,
-    "recipients": null,
-    "opensPct": null,
-    "clicksPct": null,
-    "file": "draft-2027-new-list-cfp.md"
+    "recipients": 1667,
+    "opensPct": 25.2,
+    "clicksPct": 6.3,
+    "file": "2026-09-03-web-rebels-is-back-list-retiring.md"
   }
 ]

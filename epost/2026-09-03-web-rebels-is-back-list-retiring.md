@@ -1,4 +1,5 @@
-Subject: Web Rebels is back – and this mailing list is retiring
+Subject: ✨ Web Rebels is back! ... and this mailing list is retiring
+Preview: Sign up again to stay on the list. May 25–26 2027 at Vulkan, Oslo. CFP is open.
 
 Hello, fellow rebels!
 

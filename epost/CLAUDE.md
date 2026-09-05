@@ -1,6 +1,15 @@
 # epost/ — arkiv over utsendte nyhetsbrev
 
-Arkiv over eposter sendt til Web Rebels-lista via Mailchimp (2016–2020). Lista bor nå i Mailgun (se `netlify/functions/`); nye utsendelser føres også opp her.
+Arkiv over eposter sendt til Web Rebels-lista via Mailchimp (2016–2026). Lista bor nå i Mailgun (se `netlify/functions/`); nye utsendelser føres også opp her.
+
+Siste utsendelse fra Mailchimp (kampanjenavn «New list») gikk 2026-09-03 til hele den gamle lista og ba folk melde seg på den nye lista. Nye påmeldinger i Mailgun dukker opp i Slack-kanalen `#mailg`.
+
+Tall fra Mailchimp per 2026-09-05 (to dager etter utsendelse, kan fortsatt bevege seg litt):
+
+- 1 667 mottakere, 292 bounces (17,5 %) → 1 375 levert. Den høye bounce-raten skyldes seks år gamle adresser, og Mailchimp varsler dessuten at domenet ikke er autentisert («Authenticate your domain to maintain email delivery») – sjekk SPF/DKIM for webrebels.org før eventuelle flere utsendelser fra Mailchimp.
+- 347 åpnet (25,2 %), 86 klikket (6,3 %), 69 meldte seg av (5,0 %).
+- Klikk på lenker: påmelding ny liste 91 (79,8 %), Sessionize-CFP 22 (19,3 %), webrebels.org 1.
+- Åpninger etter land: USA 75 %, Sverige 7 %, Norge 3 % – USA-andelen er trolig proxy-/bot-åpninger (Apple Mail Privacy o.l.), ikke reelle lesere.
 
 ## Struktur
 
